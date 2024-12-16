@@ -484,15 +484,15 @@ footer {
 }
 .upper {
     
-    width: 120%;
+    width: 100%;
 }
 .middle {
     margin-left: -15px !important;
     margin-right: -15px !important;
 }
 .leftcard, .middlecard, .rightcard {
-    height: 230px !important;
-    width: 230px !important;
+    height: 200px !important;
+    width: 200px !important;
 }
 .rightcard {
     margin-right: 40px !important;

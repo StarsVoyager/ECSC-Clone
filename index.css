@@ -273,7 +273,7 @@ button:hover {
 }
 .header .logo {
     width: 90px;
-    filter: hue-rotate(100deg);
+ /*   filter: hue-rotate(100deg);  (wanted to change logo hue but decided to keep it as this is just a prototype) */  
     overflow: hidden;
    
 }

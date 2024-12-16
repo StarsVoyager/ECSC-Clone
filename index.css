@@ -293,7 +293,7 @@ button:hover {
 .upper {
     margin-top: 320px;
     margin-bottom: -120px;
-    width: 95%;
+    width: 99%;
     height: 700px;
     position: relative;
     translate: -50% -50%;
@@ -328,7 +328,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     position: absolute;
-    left: 10%;
+    left: 13%;
     align-items: center;
     
 }
@@ -451,7 +451,7 @@ hr {
    
 }
 footer {
-    width: 101%;
+    width: 102vw;
     height: 350px;
     background-color: rgb(22, 22, 22);
     margin-top: 90px;
@@ -467,12 +467,54 @@ footer {
  flex-direction: column;
  justify-content: center;
  align-items: center;
- margin-bottom: 40px;
+ margin-bottom: 0px;
  margin-left: 100px;
  margin-right: 100px;;
+ 
 }
+@media (max-width: 1089px) {
 .footer .middle {
-    flex: 1 !important;
+    width: 1200px;
+}
+.footer .left{
+    width: 500px;
+}
+.footer .right {
+    width: 1200px;
+}
+.upper {
+    
+    width: 120%;
+}
+.middle {
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+}
+.leftcard, .middlecard, .rightcard {
+    height: 230px !important;
+    width: 230px !important;
+}
+.rightcard {
+    margin-right: 40px !important;
+}
+}
+@media (max-width: 840px){
+.upper {
+    width: 140%;
+} 
+.leftcard, .middlecard, .rightcard {
+    height: 180px !important;
+    width: 180px !important;
+}
+.leftcard {
+    margin-left: 50px !important;
+}
+.rightcard {
+    margin-right: 40px !important;
+}
+.middlecard {
+    margin-left: 0px !important;
+}
 }
 .footer a {
     display: inline;
@@ -494,6 +536,10 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    vertical-align: center;
+    margin-bottom: 20px;
+    
     
 }
 .bottomm .imgz {
@@ -502,7 +548,7 @@ footer {
     align-items: center;
     width: 300px;
     margin-left: 80px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 
 }
 .bottomm .imgz img {
@@ -520,4 +566,7 @@ footer {
 .bottomm .imgz p {
     color: white;
     display: inline;
+}
+.copyright {
+    margin-right: 79px !important;
 }
